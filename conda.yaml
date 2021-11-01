@@ -1,0 +1,13 @@
+channels:
+  # Define conda channels here. 
+  - conda-forge
+
+dependencies:
+  - nodejs
+  - python=3.7.5
+  - pip=20.1
+  - pip:
+    - robotframework-browser
+    - rpaframework==11.4.0
+rccPostInstall:
+  - rfbrowser init
