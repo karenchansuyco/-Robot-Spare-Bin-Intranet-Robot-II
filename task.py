@@ -1,5 +1,5 @@
 # +
-"""Template robot with Python."""
+"""Automation for bulk order placements in Build a Robot site"""
 
 import os
 
